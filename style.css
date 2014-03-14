@@ -2,16 +2,43 @@ h1 {
   opacity: 0;
 }
 #main-container {
-  background-image: url('backdrop.png');
+  /*background-image: url('backdrop.png');*/
+  /*absolute positioning*/
+  /*z index*/
+
+  position: absolute;
   opacity: 0;
   width: 610px;
   height: 600px;
   margin: 0 auto;
+
 }
+
+/*#main-container2 {*/
+  /*background-image: url('backdrop.png');*/
+  /*absolute positioning*/
+  /*z index*/
+
+/*  position: absolute;
+  opacity: 0;
+  width: 610px;
+  height: 600px;
+  margin: 0 auto;
+
+}*/
+
 .row {
   position: relative;
   display: inline-block;
+  z-index: 1;
 }
+
+.row2 {
+  position: relative;
+  display: inline-block;
+  z-index: -1;
+}
+
 .hide {
   opacity: 0;
 }
